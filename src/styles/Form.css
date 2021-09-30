@@ -1,0 +1,44 @@
+@import "input.css";
+.form-container {
+  width: 100%;
+  min-width: 278px;
+  margin: 0%;
+  padding: 20px;
+}
+.form-container .theme p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.theme,
+.color {
+  display: flex;
+}
+.theme .color .colorType {
+  height: 20px;
+  width: 20px;
+  border-radius: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.file-btn {
+  padding: 6px 8px;
+  margin: 0 15px 15px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #389969;
+  color: #fff;
+  cursor: pointer;
+}
+.label {
+  margin: 10px 0 2px 0;
+}
+.form .section button {
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.row .item input,
+.item textarea {
+  width: 100%;
+  margin: 5px 0px 5px 0;
+}

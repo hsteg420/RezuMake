@@ -1,0 +1,193 @@
+.resume {
+  margin: 0;
+  padding: 0;
+  height: 250vh;
+  display: flex;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.left-content {
+  width: 260px;
+  background-color: #f0f0f0;
+  color: #0a0a0a;
+  padding: 5px 5px;
+}
+.left-content .text {
+  font-size: 14px;
+  color: #0c0c0c;
+}
+.photo-container {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin: 10px auto 0 auto;
+  border-radius: 100%;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  padding: 15px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left-content .heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading span {
+  font-size: 15px;
+  margin-right: 6px;
+  color: #263238;
+}
+
+hr {
+  margin: 6px 0 8px 0;
+  color: #59d69c;
+  border: 0.5px solid;
+}
+
+a {
+  color: #263238;
+  text-decoration: none;
+}
+.skills {
+  padding: 25px 5px 0 10px;
+}
+
+ .skills-container {
+  width: 100%;
+  display: inline-block;
+}
+
+.skills-container .item {
+  float: left;
+  padding: 2px 5px;
+  margin: 5px 8px 5px 0;
+  border-radius: 5px;
+  color: #1e1e1e;
+  background-color: #e0e0e0;
+}
+
+.involvement {
+  padding: 20px 5px 20px 10px;
+}
+
+.item .text {
+  margin: 5px 0 2px;
+  padding: 0;
+}
+
+ .item .rname {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.resume .right-content hr {
+  margin: 1.5px 0 5px 0;
+  width: 100%;
+  border: 0.5px solid #263238;
+}
+
+.resume .right-content .heading {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+  color: #263238;
+}
+
+ .Summary {
+  padding: 10px 10px 5px 10px;
+}
+
+ .Summary .item {
+  font-size: 13.5px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #2e2e2e;
+}
+
+ .education,.certifications,.experience,.projects {
+  padding: 10px 10px 0 10px;
+  font-size: 14px;
+}
+
+.row-table {
+  width: calc(100% -10px);
+  display: flex;
+  padding: 5px 5px 5px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+.row-table:last-child {
+  border-bottom: none;
+}
+ .row-table .left-column {
+  width: 250px;
+  padding: 0;
+}
+
+.year {
+  font-size: 13px;
+  color: #4e4e4e;
+  margin: 0 0 0 5px;
+}
+.score {
+  margin: 6px 0 5px 21px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #2e2e2e;
+}
+
+.row-table .right-column {
+  width: 100%;
+  padding: 0;
+}
+
+.course, .position, .title {
+  font-size: 14px;
+  margin: 0;
+  color: #2e2e2e;
+}
+.institution, .company {
+  margin: 4px 0 0;
+  font-size: 13.5px;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+  .description {
+  font-size: 13.5px;
+  margin: 4px 0 0 0;
+  color: #4e4e4e;
+}
+
+ .projects .row-table li {
+  margin: 0 0 0 10px;
+} 
+.projects li .link {
+  margin: 6px 0 5px 5px;
+  font-size: 13.5px;
+  color: #263238;
+  text-decoration: underline;
+}
+.projects .description{
+  font-size: 13px;
+    margin: 0.4% 2%;
+    color: #4e4e4e;
+  
+}
+ .repo_link {
+  font-size: 13.5px;
+  margin: 8px 0 5px 0;
+}
+ .repo_link a {
+  color: #263238;
+  text-decoration: underline;
+}
+

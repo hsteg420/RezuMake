@@ -1,0 +1,77 @@
+{
+	"contact": {
+		"name": "Jane Doe",
+		"photoUrl": "https://image.flaticon.com/icons/png/512/949/949666.png",
+		"location": "Varanasi, UP",
+		"phone": "+91 0123456789",
+		"email": "abc@example.com",
+		"linkedin": "linkedin.com/in/john",
+		"github": "github.com/john",
+		"website": "www.portfolio.com"
+	},
+	"Summary": "Include 2-3 clear sentences about your overall experience",
+
+	"education": [
+		{
+			"year": "July 2019 - April 2023",
+			"course": "Courses/Degree ",
+			"institution": "Your College/School name",
+			"percentage": "8.8"
+		}
+	],
+	"experience": [
+		{
+			"year": "Jun 2021 - Current",
+			"company": "XYZ Company",
+			"position": "Frontend Developer",
+			"description": "Share your experience/Tasks done under job"
+		}
+	],
+
+	"skills": [
+		"C",
+		"C++",
+		"Python",
+		"JavaScript",
+		"MySQL"
+	],
+
+	"projects": [
+		{
+			"title": "Project-1",
+			"link": "https://project1.netlify.com",
+			"description": "Project description/Tech stack used"
+		}
+	],
+
+	"projects_link": "https://some-more-projects.github.com",
+	
+	"certifications": [
+		{
+			"year": "June 2021 - July 2021",
+			"institution": "Learn Code Online",
+			"course": "Web Development",
+			"description": "Brief description about course"
+		}
+	],
+
+
+	"interests": [
+		"Content Writing",
+		"Data Analytics"
+	],
+
+	"awards": [
+		{
+			"title": "Hackathons/Olympiads/Contest winner etc"
+		}
+	],
+
+	"Involvement": [
+		{
+			"name": "Women TechMaker",
+			"desig": "Global Ambassdor"
+
+		}
+	]
+}
